@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgh_page=self.webpackChunkgh_page||[]).push([[523],{8523:function(e,u,a){a.r(u);a(2791);var h=a(6015),n=a(184);u.default=function(){return(0,n.jsx)(h.Z,{sx:{display:"flex",width:"100px",height:"100px",backgroundColor:"red"}})}}}]);
+//# sourceMappingURL=523.23609536.chunk.js.map
