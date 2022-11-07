@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgh_page=self.webpackChunkgh_page||[]).push([[596],{1596:function(e,n,u){u.r(n),u.d(n,{default:function(){return t}});u(2791);var a=u(6015),s=u(184),t=function(){return(0,s.jsx)(a.Z,{className:"ResumeMainContainer"})}}}]);
+//# sourceMappingURL=596.e0b5c1b7.chunk.js.map
