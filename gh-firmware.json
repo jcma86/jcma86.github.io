@@ -1,7 +1,7 @@
 {
     "type": "Greenhouse_Pepper",
     "version": "0.1.2",
-    "host": "https://profile.cruzmarquez.com",
+    "host": "profile.cruzmarquez.com",
     "port": 80,
     "bin": "/gh-firmware-0.1.2.bin"
 }
