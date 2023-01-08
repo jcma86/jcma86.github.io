@@ -8,7 +8,7 @@
     },
     {
         "type": "GreenhousePepper_debug",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "host": "profile.cruzmarquez.com",
         "port": 80,
         "bin": "/gh-firmware-0.1.2-debug.bin"
