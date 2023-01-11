@@ -1,10 +1,10 @@
 [
     {
         "type": "GreenhousePepper_release",
-        "version": "0.1.18",
+        "version": "0.1.19",
         "host": "profile.cruzmarquez.com",
         "port": 80,
-        "bin": "/gh-firmware-0.1.18.bin"
+        "bin": "/gh-firmware-0.1.19.bin"
     },
     {
         "type": "GreenhousePepper_debug",
