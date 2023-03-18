@@ -1,0 +1,31 @@
+---
+layout: page
+# All the Tags of posts.
+---
+
+{% if site.lang == "en" %}
+{% capture link1 %}{{ site.url }}{% endcapture %}
+{% else %}
+{% capture link1 %}{{ site.baseurl_root }}/{{site.lang}}{% endcapture %}
+{% endif %}
+
+<div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+
+  {% assign tags = "" | split: "" %}
+  {% for t in site.tags %}
+  {% assign tags = tags | push: t[0] %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort_natural %}
+
+  {% for t in sorted_tags %}
+  {% assign t_slug = t | slugify %}
+  {% assign p = link1 | append: '/tags/' | append: t_slug %}
+  <div>
+    <a class="tag" href="{{p}}">
+      {{ t }}<span class="text-muted">{{ site.tags[t].size }}</span>
+    </a>
+  </div>
+  {% endfor %}
+
+</div>

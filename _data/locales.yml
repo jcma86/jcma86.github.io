@@ -1,0 +1,103 @@
+language:
+    en: "English"
+    es: "Español"
+    ru: "Русский"
+
+en:
+  post:
+    posted: "Posted"
+    written_by: 'By'
+    updated: 'Updated'
+  post_categories:
+    bs:             "Binary Search"
+    dfsbfs:         "DFS/BFS"
+    dynamicp:       "Dynamic Programming"
+    greedy:         "Greedy Algorithm"
+    hashtable:      "Hash Table"
+    heap:           "Heap"
+    linkedlist:     "Linked List"
+    others:         "Others"
+    programming:    "Programming"
+    ps:             "Prefix Sum"
+    slidingwindow:  "Sliding Window"
+    sort:           "Sort"
+    stack:          "Stack"
+    tortoisehare:   "Tortoise and Hare"
+    tree:           "Tree"
+    twopointers:    "Two Pointers"
+
+#   categories: [Programming, Greedy Problems & Dynamic Programming]
+# tags: [c/c++, contests, leetcode, greedy, dynamic programming]
+
+es:
+  post:
+    posted: "Publicado"
+    written_by: 'Por'
+    updated: 'Actualizado'
+  post_categories:
+    bs:             "Búsqueda Binaria"
+    dfsbfs:         "BP/BA"
+    dynamicp:       "Programación Dinámica"
+    greedy:         "Algorimo Voraz"
+    hashtable:      "Tabla Hash"
+    heap:           "Montículo"
+    linkedlist:     "Lista Enlazada"
+    others:         "Otros"
+    programming:    "Programación"
+    ps:             "Suma Acumulada"
+    slidingwindow:  "Ventana Deslizante"
+    sort:           "Ordenamiento"
+    stack:          "Pila"
+    tortoisehare:   "Tortuga y Liebre"
+    tree:           "Árbol"
+    twopointers:    "Dos Punteros"
+  tabs:
+    home: "Inicio"
+    categories: "Categorías"
+    tags: "Etiquetas"
+    archives: "Archivos"
+    about: "Acerca de..."
+  categories:
+    category_measure:
+      plural: "categorías"
+      singular: "categoría"
+    post_measure:
+      plural: "publicaciones"
+      singular: "publicación"
+
+ru:
+  post:
+    posted: "Опубликовано"
+    written_by: 'Автор'
+    updated: 'Обновлено'
+  post_categories:
+    bs:             "Двоичное Дерево Поиска"
+    dfsbfs:         "Поиск в Глубину/Поиск в Ширину"
+    dynamicp:       "Динамическое Программирование"
+    greedy:         "Жадные Алгоритмы"
+    hashtable:      "Хеш-Таблица"
+    heap:           "Куча"
+    linkedlist:     "Связный Список"
+    others:         "Другие"
+    programming:    "Программирование"
+    ps:             "Префиксная Сумма"
+    slidingwindow:  "Раздвижное Окно"
+    sort:           "Сортировки"
+    stack:          "Стек"
+    tortoisehare:   "Черепахи и Зайца"
+    tree:           "Дерево"
+    twopointers:    "Два Указателя"
+# tags: [c/c++, leetcode, жадные, динамическое программирование]
+  tabs:
+    home: "Домой"
+    categories: "Категории"
+    tags: "Теги"
+    archives: "Архивы"
+    about: "Обо мне..."
+  categories:
+    category_measure:
+      plural: "категорий"
+      singular: "категория"
+    post_measure:
+      plural: "пост"
+      singular: "пост"
