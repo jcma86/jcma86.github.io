@@ -10,6 +10,7 @@ en:
     updated: 'Updated'
   post_categories:
     bs:             "Binary Search"
+    bw:             "Bitwise Operation"
     dfsbfs:         "DFS/BFS"
     dynamicp:       "Dynamic Programming"
     greedy:         "Greedy Algorithm"
@@ -36,6 +37,7 @@ es:
     updated: 'Actualizado'
   post_categories:
     bs:             "Búsqueda Binaria"
+    bw:             "Operación a Nivel de Bits"
     dfsbfs:         "BP/BA"
     dynamicp:       "Programación Dinámica"
     greedy:         "Algorimo Voraz"
@@ -72,6 +74,7 @@ ru:
     updated: 'Обновлено'
   post_categories:
     bs:             "Двоичное Дерево Поиска"
+    bw:             "Битовая Операция"
     dfsbfs:         "Поиск в Глубину/Поиск в Ширину"
     dynamicp:       "Динамическое Программирование"
     greedy:         "Жадные Алгоритмы"
