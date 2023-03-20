@@ -46,10 +46,10 @@ You must write an algorithm with `O(log n)` runtime complexity.
 
 ## Solution
 ---
-We perform two binary searches.
-  - Binary search to find the minimum index of the target value.
-  - If there is a minimun index, then we perform a binary search to find the maximum index.
-    - Because there is a minimum, we can initialize the `left` pointer to the first position where the target was found for the first time.
+We perform two binary searches.  
+  - Binary search to find the minimum index of the target value.  
+  - If there is a minimun index, then we perform a binary search to find the maximum index.  
+    - Because there is a minimum, we can initialize the `left` pointer to the first position where the target was found for the first time.  
 
 ```c++
 class Solution {
