@@ -52,7 +52,8 @@ Two solutions:
     - If we finish the string and `count == 0` all the substring from `start` is valid.
     - If the count ends positive, means, there are extra `'('` so:
       - We start iterating backwards to the point where `count == 0`.
-    - Calculate the distance from the first `'('` to the index where the count is `0`.
+    - Calculate the distance from the first `'('` to the index where the count is `0`.  
+
 ```c++
 class Solution {
 public:
