@@ -18,6 +18,28 @@ layout: page
     <span class="lead text-muted pl-2">{{ page.posts | size }}</span>
   </h1>
 
+  {% assign easy = page.posts | where: "difficulty", "easy" %}
+  {% assign medium = page.posts | where: "difficulty", "medium" %}
+  {% assign hard = page.posts | where: "difficulty", "hard" %}
+
+  <div style="display: flex; flex: content; width: 100%; flex-direction: row; column-gap: 15px;">
+    <div>
+      <div class="post-difficulty difficulty-easy">
+        Easy: <b>{{easy.size}}</b>
+      </div>
+    </div>
+    <div>
+      <div class="post-difficulty difficulty-medium">
+        Medium: <b>{{medium.size}}</b>
+      </div>
+    </div>
+    <div>
+      <div class="post-difficulty difficulty-hard">
+        Hard: <b>{{hard.size}}</b>
+      </div>
+    </div>
+  </div>
+
   {% for platform in platforms %}
   {% assign postsByPlatform = platform.items | sort: "number" %}
   <ul class="post-content pl-0">
