@@ -68,9 +68,12 @@ The `'.'` character indicates empty cells.
 
 ## Solution
 ---
-This can be solved using [**backtracking**](https://en.wikipedia.org/wiki/Backtracking)
-  - For every empty cell, we insert a valid number (see [problem 36](../leetcode-36-valid-sudoku/)) until we find the correct solution.
+This can be solved using [**backtracking algorithm**](https://www.programiz.com/dsa/backtracking-algorithm) (a "optimized" brute force method).
+  - For every empty cell, we insert all the valid numbers (see [problem 36](../leetcode-36-valid-sudoku/)) using recursion until we find the correct solution.
+  - If a solution is not valid we return and set back the cell to empty.
 A different approach can be first generate all posible numbers for each cell, then start placing numbers to those cell with the minimum option. Problem is not efficient in memory, and also needs a good heuristic to decide what number place when a cell has more than one posible option.  
+  - **Recursion will be called moving one cell to the right, if we are at the end, then we move to the start of the next row.**
+  - **Once we completed all rows, we have found a correct solution.**
 
 
 ```c++
@@ -90,28 +93,25 @@ public:
     return true;
   }
 
-  bool solve(vector<vector<char>>& board) {
-    for (int i=0; i<board.size(); i++) {
-      for (int j=0; j<board[0].size(); j++) {
-        if (board[i][j] == '.') {
-          for (char ch='1'; ch<='9'; ch++) {
-            if (isValid(board, i, j, ch)) {
-              board[i][j] = ch;
-              if (solve(board) == true)
-                return true;
-              board[i][j] = '.';
-            }
-          }
-          return false;
-        }
+  bool solve(vector<vector<char>>& board, int r, int c) {
+    if (r==9) return true;
+    if (c==9) return solve(board, r+1, 0);
+    if (board[r][c] != '.') return solve(board, r, c+1);
+
+    for (char i='1'; i<='9'; i++) {
+      if (isValid(board, r, c, i)) {
+        board[r][c] = i;
+        if (solve(board, r, c+1))
+          return true;
       }
+      board[r][c] = '.';
     }
-    return true;
+    return false;
   }
 
 public:
   void solveSudoku(vector<vector<char>>& board) {
-    solve(board);
+    solve(board, 0, 0);
   }   
 };
 ```
