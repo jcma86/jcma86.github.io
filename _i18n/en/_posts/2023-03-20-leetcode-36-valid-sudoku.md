@@ -30,7 +30,7 @@ Each of the nine `3 x 3` sub-boxes of the grid must contain the digits `1-9` wit
 ## Examples
 ---
 ### **Example 1:**
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" width="80%"/>  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" width="85%"/>  
 
 >**Input:** board = 
 >[["5","3",".",".","7",".",".",".","."]  

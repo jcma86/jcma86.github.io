@@ -33,7 +33,7 @@ The `'.'` character indicates empty cells.
 ## Examples
 ---
 ### **Example 1:**
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" width="50%"/>  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" width="70%"/>  
 
 >**Input:** board = [["5","3",".",".","7",".",".",".","."],  
 >["6",".",".","1","9","5",".",".","."],  
