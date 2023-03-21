@@ -89,9 +89,8 @@ public:
           for (int x=0; x<3; x++) {
             if ((3*(col/3)+x)==col && (3*(row/3)+y)==row)
               continue;
-            if (board[3*(row/3)+y][3*(col/3)+x] == board[row][col]) {
-            return false;
-          }
+            if (board[3*(row/3)+y][3*(col/3)+x] == board[row][col])
+              return false;
           }
         }
       }
