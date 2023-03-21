@@ -8,7 +8,7 @@ language: en
 date: 2023-03-20 10:20 +0300
 categories: [programming, others]
 tags: [c/c++, leetcode, others]
-difficulty: easy
+difficulty: medium
 source: https://leetcode.com/problems/valid-sudoku/
 proglang: C/C++
 math: true
