@@ -33,7 +33,7 @@ The `'.'` character indicates empty cells.
 ## Examples
 ---
 ### **Example 1:**
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" width="70%"/>  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" width="80%"/>  
 
 >**Input:** board = [["5","3",".",".","7",".",".",".","."],  
 >["6",".",".","1","9","5",".",".","."],  
@@ -55,7 +55,7 @@ The `'.'` character indicates empty cells.
 >["3","4","5","2","8","6","1","7","9"]]  
 >**Explanation:** The input board is shown above and the only valid solution is shown below:  
 >  
-><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png" width="50%"/>  
+><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png" width="80%"/>  
 >  
 >  
 
