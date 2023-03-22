@@ -48,38 +48,39 @@ The only difference is, in the step 2 I'm adding the previous while multiplying.
 ```c++
 class Solution {
 public:
-    string multiply(string num1, string num2) {
-      if (num1 == "0" || num2 == "0")
-        return "0";
-      if (num1 == "1" || num2 == "1")
-        return num1 == "1" ? num2 : num1;
+  string multiply(string num1, string num2) {
+    if (num1 == "0" || num2 == "0")
+      return "0";
+    if (num1 == "1" || num2 == "1")
+      return num1 == "1" ? num2 : num1;
 
-      int p0=0;
-      int p1=0;
-      string ans="";
-      for (int b=num2.size()-1; b>=0; b--) {
-        int c = 0;
-        p1 = p0;
-        for (int a=num1.size()-1; a>=0; a--) {
-          int r = ((num2[b] - 48) * (num1[a] - 48)) + c;
-          if (ans.size() > 0 && p1 < ans.size())
-            r += (ans[(ans.size()-1) - p1] - 48);
-          c = r / 10;
-          r = r % 10;
+    int p0=0;
+    int p1=0;
+    string ans="";
+    for (int b=num2.size()-1; b>=0; b--) {
+      int c = 0;
+      p1 = p0;
+      for (int a=num1.size()-1; a>=0; a--) {
+        int r = ((num2[b] - 48) * (num1[a] - 48)) + c;
+        if (ans.size() > 0 && p1 < ans.size())
+          r += (ans[(ans.size()-1) - p1] - 48);
+        
+        c = r / 10;
+        r = r % 10;
 
-          if (p0>0 and p1 < ans.size())
-            ans[ans.size()-1-p1] = r + 48;
-          else
-            ans = to_string(r) + ans;
+        if (p0>0 and p1 < ans.size())
+          ans[ans.size()-1-p1] = r + 48;
+        else
+          ans = to_string(r) + ans;
 
-          if (a == 0 && c != 0)
-            ans = to_string(c) + ans;
+        if (a == 0 && c != 0)
+          ans = to_string(c) + ans;
 
-          p1++;
-        }
-        p0++;
+        p1++;
       }
-      return ans;
+      p0++;
     }
+    return ans;
+  }
 };
 ```
