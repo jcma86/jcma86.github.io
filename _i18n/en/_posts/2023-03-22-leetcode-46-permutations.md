@@ -1,15 +1,15 @@
 ---
-title: Jump Game II
+title: Permutations
 platform: LeetCode
-number: 45
+number: 46
 author: jose
 layout: post
 language: en
-date: 2023-03-22 10:00 +0300
-categories: [programming, greedy]
-tags: [c/c++, leetcode, greedy]
+date: 2023-03-22 11:00 +0300
+categories: [programming, bt, recursion]
+tags: [c/c++, leetcode, bt, recursion]
 difficulty: medium
-source: https://leetcode.com/problems/jump-game-ii/
+source: https://leetcode.com/problems/permutations/
 proglang: C/C++
 math: true
 mermaid: true
@@ -17,65 +17,54 @@ pin: true
 ---
 ## {% t posts.problem %}
 ---
-You are given a **0-indexed** array of integers `nums` of length `n`. You are initially positioned at `nums[0]`.
-
-Each element `nums[i]` represents the maximum length of a forward jump from index `i`. In other words, if you are at `nums[i]`, you can jump to any `nums[i + j]` where:
-
-* `0 <= j <= nums[i]` and  
-* `i + j < n`  
-
-Return *the minimum number of jumps to reach `nums[n - 1]`*. The test cases are generated such that you can reach `nums[n - 1]`.  
+Given an array `nums` of distinct integers, return *all the possible permutations*. You can return the answer in **any order**.  
 
 ## Examples
 ---
 ### **Example 1:**
->**Input:** nums = [2,3,1,1,4]  
->**Output:** 2  
->**Explanation:** The minimum number of jumps to reach the last index is 2. Jump 1 step from index 0 to 1, then 3 steps to the last index.  
+>**Input:** nums = [1,2,3]  
+>**Output:** [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]  
 
 ### **Example 2:**
->**Input:** nums = [2,3,0,1,4]  
->**Output:** 2  
+>**Input:** nums = [0,1]  
+>**Output:** [[0,1],[1,0]]  
+
+### **Example 3:**
+>**Input:** nums = [1]  
+>**Output:** [[1]]  
 
 ## Constraints
 ---
-- <code>1 <= nums.length <= 10<sup>4</sup></code>  
-- `0 <= nums[i] <= 1000`  
-- It's guaranteed that you can reach `nums[n - 1]`.  
+- `1 <= nums.length <= 6`
+- `-10 <= nums[i] <= 10`
+- All the integers of `nums` are **unique**.
 
 ## Solution
 ---
-We will use a [**Greedy Algorithm**](https://www.programiz.com/dsa/greedy-algorithm) (*see more [problems](/categories/greedy/)*)  
-- For each position, we determine what is the maximum distance we can achive.  
-- Everytime we are at the element of the max distance achieve, we increase the jumps counting.  
-- When we can reach the last element (or more) we increase the jump count and return the value.  
+This can be solved using [**Backtracking**](https://www.geeksforgeeks.org/introduction-to-backtracking-data-structure-and-algorithm-tutorials/) (*see more [backtracking problems](/categories/bt/)*)    
 
 ```c++
 class Solution {
-public:
-  int jump(vector<int>& nums) {
-    if (nums.size() <= 1)
-      return 0;
-    
-    int jumps = 0;
-    int curPos = 0;
-    int maxPos = 0;
-      
-    for (int i=0; i<nums.size(); i++) {
-      maxPos = max(maxPos, i + nums[i]);
-      
-      if (maxPos >= nums.size() - 1) {
-        jumps += 1;
-        break;
-      }
-      
-      if (curPos == i) {
-        jumps += 1;
-        curPos = maxPos;
-      }
+private:
+  vector<vector<int>> result;
+
+  void permutations(vector<int>& nums, int index) {
+    if (index == nums.size()) {
+      result.push_back(nums);
+      return;
     }
-    
-    return jumps;
+
+    for (int i=index; i<nums.size(); i++) {
+      swap(nums[index], nums[i]);
+      permutations(nums, index+1);
+      swap(nums[index], nums[i]);
+    }
+  }
+public:
+  vector<vector<int>> permute(vector<int>& nums) {
+    permutations(nums, 0);
+
+    return result;
   }
 };
 ```
