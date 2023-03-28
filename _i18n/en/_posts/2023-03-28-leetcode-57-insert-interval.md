@@ -77,16 +77,13 @@ public:
         next = &newInterval;
       }
 
-      if (result.size() == 0) {
+      if (result.size() == 0)
         result.push_back(*next);
-      } else if ((*next)[0] >= result[result.size()-1][0] &&
-          (*next)[0] <= result[result.size()-1][1]) {
-        if((*next)[1] >= result[result.size()-1][1]) {
-          result[result.size()-1][1] = (*next)[1];
-        }
-      } else {
+      else if ((*next)[0] >= result[result.size()-1][0] &&
+          (*next)[0] <= result[result.size()-1][1])
+            result[result.size()-1][1] = max((*next)[1], result[result.size()-1][1]);
+      else
         result.push_back(*next);
-      }
 
       if (isNewNext)
         newMerged = true;      
