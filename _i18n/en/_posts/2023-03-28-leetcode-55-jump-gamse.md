@@ -1,5 +1,5 @@
 ---
-title: Spiral Matrix
+title: Jump Game
 platform: LeetCode
 number: 55
 author: jose
