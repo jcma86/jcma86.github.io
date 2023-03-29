@@ -5,7 +5,7 @@ number: 62
 author: jose
 layout: post
 language: en
-date: 2023-03-29 04:00 +0300
+date: 2023-03-29 09:30 +0300
 categories: [programming, dynamicp, recursion]
 tags: [c/c++, leetcode, dynamicp, recursion]
 difficulty: medium
@@ -33,7 +33,7 @@ The test cases are generated so that the answer will be less than or equal to <c
 
 ### **Example 2:**
 >**Input:** m = 3, n = 2  
->**Output:** 3
+>**Output:** 3  
 >**Explanation:** From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:  
 > 1. Right -> Down -> Down  
 > 2. Down -> Down -> Right  
