@@ -5,7 +5,7 @@ number: 77
 author: jose
 layout: post
 language: en
-date: 2023-04-01 22:00 +0300
+date: 2023-04-03 11:30 +0300
 categories: [programming, bt]
 tags: [c/c++, leetcode, bt]
 difficulty: medium
