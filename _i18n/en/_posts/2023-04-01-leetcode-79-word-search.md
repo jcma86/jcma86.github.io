@@ -6,8 +6,8 @@ author: jose
 layout: post
 language: en
 date: 2023-04-03 22:00 +0300
-categories: [programming, dfsbfs]
-tags: [c/c++, leetcode, dfsbfs]
+categories: [programming, bt, dfsbfs]
+tags: [c/c++, leetcode, bt, dfsbfs]
 difficulty: medium
 source: https://leetcode.com/problems/word-search/
 proglang: C/C++
@@ -35,7 +35,7 @@ The word can be constructed from letters of sequentially adjacent cells, where a
 >**Input:** board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"  
 >**Output:** true  
 
-### **Example 2:**
+### **Example 3:**
 <img src="https://assets.leetcode.com/uploads/2020/10/15/word3.jpg" />  
 
 >**Input:** board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"  
