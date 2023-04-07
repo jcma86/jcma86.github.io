@@ -92,7 +92,6 @@ public:
   - When we find a `0`, we increase a count.
   - Once the count is `2`:
     - We move the `left` extreme of the window until we find a `0` to decrease the count (shrinking window).  
-  - If a `0` is found, our current count becomes the previous count, and we reset the current count.  
   - At every step, we calculate the max with the size of the window (which contains only `1`s and maximum one `0`).  
 
 ```c++
