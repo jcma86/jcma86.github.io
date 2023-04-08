@@ -39,8 +39,6 @@ Given the `head` of a sorted linked list, *delete all nodes that have duplicate 
 - `-100 <= Node.val <= 100`  
 - The list is guaranteed to be **sorted** in ascending order.  
 
-**Follow up:** Could you use search pruning to make your solution faster with a larger board?
-
 ## Solution
 ---
 We will use two pointers, one to explore each node, and one to keep tracking of the list and the element that points `next`.  
