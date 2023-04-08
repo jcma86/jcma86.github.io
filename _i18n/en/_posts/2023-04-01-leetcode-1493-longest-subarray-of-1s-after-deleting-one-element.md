@@ -43,11 +43,11 @@ Return *the size of the longest non-empty subarray containing only `1`'s in the 
 - <code>1 <= nums.length <= 10<sup>5</sup></code>  
 - `nums[i]` is either `0` or `1`.  
 
-**Follow up:** Could you use search pruning to make your solution faster with a larger board?
-
 ## Solution
 ---
-1. Two solutions a simple count of every group of ones.  
+Two solutions:  
+
+1. A simple count of every group of ones.  
 2. Using an sliding window.
 
 ### Solution 1
