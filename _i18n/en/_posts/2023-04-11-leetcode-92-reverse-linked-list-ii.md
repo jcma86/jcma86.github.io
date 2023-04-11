@@ -54,6 +54,8 @@ We solve this problem this way:
 - The `l` node shoul point next to the current position of `r`.  
 - If the `head` is not the original node, then we pointed to the node at `right`.  
 
+And it is solved in one pass.  
+
 ```c++
 /**
  * Definition for singly-linked list.

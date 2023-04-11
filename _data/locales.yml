@@ -10,6 +10,7 @@ en:
     updated: 'Updated'
   post_categories:
     bs:             "Binary Search"
+    btree:          "Binary Tree"
     bt:             "Backtracking"
     bw:             "Bitwise Operation"
     dfsbfs:         "DFS/BFS"
@@ -42,6 +43,7 @@ es:
   post_categories:
     bs:             "Búsqueda Binaria"
     bt:             "Vuelta atrás (Backtracking)"
+    btree:          "Árbol Binario"
     bw:             "Operación a Nivel de Bits"
     dfsbfs:         "BP/BA"
     dynamicp:       "Programación Dinámica"
@@ -83,6 +85,7 @@ ru:
   post_categories:
     bs:             "Двоичное Дерево Поиска"
     bt:             "Поиск с Возвратом"
+    btree:          "Двоичное Дерево"
     bw:             "Битовая Операция"
     dfsbfs:         "Поиск в Глубину/Поиск в Ширину"
     dynamicp:       "Динамическое Программирование"
