@@ -62,6 +62,8 @@
 
   <title>
     {%- unless page.layout == 'home' -%}
+    {{ page.platform}}
+    {{ page.number | append: ': ' }}
     {{ page.title | append: ' | ' }}
     {%- endunless -%}
     {{ site.title }}
