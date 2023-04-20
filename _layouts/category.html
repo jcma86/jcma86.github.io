@@ -22,6 +22,7 @@ layout: page
   {% assign medium = page.posts | where: "difficulty", "medium" %}
   {% assign hard = page.posts | where: "difficulty", "hard" %}
 
+  {% if easy.size > 0 or medium.size > 0 or hard.size > 0 %}
   <div style="display: flex; flex: content; width: 100%; flex-direction: row; column-gap: 15px;">
     <div>
       <div class="post-difficulty difficulty-easy">
@@ -39,6 +40,7 @@ layout: page
       </div>
     </div>
   </div>
+  {% endif %}
 
   {% for platform in platforms %}
   {% assign postsByPlatform = platform.items | sort: "number" %}
