@@ -32,8 +32,10 @@ en:
     tree:           "Tree"
     twopointers:    "Two Pointers"
 
-#   categories: [Programming, Greedy Problems & Dynamic Programming]
-# tags: [c/c++, contests, leetcode, greedy, dynamic programming]
+    articles:       "Articles"
+    array:          "Arrays"
+    datastructures: "Data Structures"
+    vector:         "Vectors"
 
 es:
   post:
@@ -63,6 +65,11 @@ es:
     tortoisehare:   "Tortuga y Liebre"
     tree:           "Árbol"
     twopointers:    "Dos Punteros"
+
+    articles:       "Articulos"
+    array:          "Arreglos"
+    datastructures: "Estructuras de Datos"
+    vector:         "Vectores"
   tabs:
     home: "Inicio"
     categories: "Categorías"
@@ -105,7 +112,12 @@ ru:
     tortoisehare:   "Черепахи и Зайца"
     tree:           "Дерево"
     twopointers:    "Два Указателя"
-# tags: [c/c++, leetcode, жадные, динамическое программирование]
+
+    articles:       "Статьи"
+    array:          "Массивы"
+    datastructures: "Структуры данных"
+    vector:         "Векторы"
+
   tabs:
     home: "Домой"
     categories: "Категории"
