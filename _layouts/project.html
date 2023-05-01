@@ -8,33 +8,7 @@ tail_includes:
 - post-nav
 - comments
 ---
-<h1 data-toc-skip>
-  {% if page.platform %}
-  {{page.platform}}
-  {% endif %}
-  {% if page.number %}
-  #{{page.number}}{% endif %}{% if page.platform or page.number %}: {% endif %}
-  {{ page.title }}
-  {% if page.proglang %}
-  ({{ page.proglang }}).
-  {% endif %}
-</h1>
-
 <div class="post-meta text-muted">
-  <!-- published date -->
-  <span>
-    {{ site.data.locales[site.lang].post.posted }}
-    {% include datetime.html date=page.date tooltip=true %}
-  </span>
-
-  <!-- lastmod date -->
-  {% if page.last_modified_at %}
-  <span>
-    {{ site.data.locales[site.lang].post.updated }}
-    {% include datetime.html date=page.last_modified_at tooltip=true %}
-  </span>
-  {% endif %}
-
   {% if page.image %}
   {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
   {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
@@ -46,15 +20,15 @@ tail_includes:
   {% endif %}
   {% endcapture %}
 
-  <div class="mt-3 mb-3" style="height: 300px; width: 100%; justify-content: center;">
-    <img {{ src }} {{ class }} {{ alt }} style="height: 100%; width: 100%; object-fit: contain" {{ lqip | strip }} />
+  <div class="mt-3 mb-3">
+    <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip | strip }}>
     {%- if page.image.alt -%}
     <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
     {%- endif -%}
   </div>
   {% endif %}
 
-  <div class="d-flex justify-content-between" style="padding-top: 0; margin-top: -20px;">
+  <div class="d-flex justify-content-between">
     <!-- author(s) -->
     <span>
       {% if page.author %}
@@ -97,48 +71,10 @@ tail_includes:
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  {% if page.difficulty %}
-  {% if page.difficulty == 'medium' %}
-  {% assign dif="post-difficulty difficulty-medium"%}
-  {% elsif page.difficulty == 'hard' %}
-  {% assign dif="post-difficulty difficulty-hard"%}
-  {% else %}
-  {% assign dif="post-difficulty difficulty-easy"%}
-  {% endif %}
-  <div class="{{dif}}">
-    {{page.difficulty}}
-  </div>
-  {% if page.source %}
-  <br />
-  <i><b>source:</b> <a href="{{page.source}}" target="_blank">{{page.source}}</a></i>
-  <br />
-  {% if page.proglang %}
-  <b>{{ page.proglang }}</b>
-  {% endif %}
-  {% if page.platform %}
-  <b>Solution to {{page.platform}} </b>
-  {% endif %} problem
-  {% if page.number %}
-  <b>{{page.number}}</b>{% endif %}{% if page.platform or page.number %}. {% endif %}
-  <b>{{ page.title }}</b>.
-  {% endif %}
-  {% endif %}
-  {{ content }}
+  {{page.title}}
 </div>
 
 <div class="post-tail-wrapper text-muted">
-
-  <!-- categories -->
-  {% if page.categories.size > 0 %}
-  <div class="post-meta mb-3">
-    <i class="far fa-folder-open fa-fw mr-1"></i>
-    {% for category in page.categories %}
-    <a href='{{link1}}{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/'>{{ category
-      }}</a>
-    {%- unless forloop.last -%}, {%- endunless -%}
-    {% endfor %}
-  </div>
-  {% endif %}
 
   <!-- tags -->
   {% if page.tags.size > 0 %}

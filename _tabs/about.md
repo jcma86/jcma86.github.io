@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 I'm Jose, a Mechatronics Engineer from Mexico. I have worked in different projects and sectors developing software solutions for gas and oil industry, automation, healthcare, insurance, blockchain, real estate, and others in different countries, such as Mexico, United States, Russia and Israel.  I speak Spanish, English and basic Russian, and currently I'm living in the biggest country in the world, Russia!
 

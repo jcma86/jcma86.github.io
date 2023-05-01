@@ -1,0 +1,47 @@
+---
+layout: page
+# The Category layout
+---
+
+{% if site.lang == "en" %}
+{% capture link1 %}{{ site.url }}{% endcapture %}
+{% else %}
+{% capture link1 %}{{ site.baseurl_root }}/{{site.lang}}{% endcapture %}
+{% endif %}
+
+{% assign projects = site.projects | reverse %}
+
+<div id="post-list">
+  {% for project in projects %}
+  {% if forloop.first %}
+  <div class="card post-preview">
+    <a href="{{link1}}{{project.url | relative_url }}">
+      <div style="display: flex; flex-direction: row;">
+        <div style="height: 95%; width: 450px; justify-content: center;">
+          <img src="{{project.image.path}}" style="height: 100%; width: 100%; object-fit: contain" />
+        </div>
+        <div class="card-body">
+          <h1 class="card-title">
+            {{project.title}}
+          </h1>
+          <div class="card-text post-content">
+            <p>
+              {% include no-linenos.html content=project.content %}
+              {{ content | markdownify | strip_html | truncate: 250 | escape }}
+            </p>
+          </div>
+
+          <div class="post-meta text-muted d-flex" style="justify-content: flex-end;">
+            <div class="pin">
+              <i>{{project.proglang}}</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  {% else %}
+  <h1>{{project.title}}</h1>
+  {% endif %}
+  {% endfor %}
+</div>
