@@ -10,8 +10,8 @@ math: true
 mermaid: true
 pin: true
 image:
-  alt: Responsive rendering of Chirpy theme on multiple devices.
   path: https://flowxo.com/wp-content/uploads/2021/03/The-Botfather-512x512.png
+  alt: BotFather.
 #   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 ---
 **Building a Telegram bot with Python** is a simple task, in this case we will use the [**python-telegram-bot**](https://docs.python-telegram-bot.org/en/stable/) library that makes thing even simpler. We also need to register our bot in order to get a Telegram API Key for our bot. Once completed, you can have your bot up and running on your local machine, or in a dedicated server for it.
