@@ -51,6 +51,7 @@ There are three main parts of the bot code,
   3. Handling the messages (`message_handler(...)` method).
 
 ```python
+# bot.py file
 import telegram
 from telegram import (
     Update
@@ -104,3 +105,8 @@ def run_bot() -> None:
 if __name__ == '__main__':
     run_bot()
 ```
+
+Finally, we only need to run our code, and that's it, the bot is up and running, and we can try it on the Telegram app.  
+
+To run:
+`$ python3 bot.py`
