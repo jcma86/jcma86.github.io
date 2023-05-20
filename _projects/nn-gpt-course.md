@@ -5,7 +5,7 @@ author: jose
 language: en
 layout: post
 date: 2023-05-15 10:00 +0300
-proglang: Python
+proglang: C++
 math: true
 mermaid: true
 pin: true
