@@ -8,7 +8,7 @@ difficulty: medium
 source: https://leetcode.com/problems/range-sum-query-2d-immutable/
 proglang: C/C++
 categories: [programming, ps]
-tags: [algorithms, c/c++, contests, leetcode, prefix sum]
+tags: [algorithms, c/c++, contests, leetcode, ps]
 layout: post
 language: en
 math: true

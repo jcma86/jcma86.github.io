@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-05 02:30 +0300
 categories: [programming, heap]
-tags: [c/c++, contests, leetcode, heap, hash table]
+tags: [c/c++, contests, leetcode, heap, hashtable]
 difficulty: medium
 source: https://leetcode.com/problems/top-k-frequent-words
 proglang: C/C++

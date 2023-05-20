@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-04 23:58 +0300
 categories: [programming, dfsbfs]
-tags: [c/c++, contests, leetcode, dfs]
+tags: [c/c++, contests, leetcode, dfsbfs]
 difficulty: hard
 source: https://leetcode.com/problems/remove-invalid-parentheses
 proglang: C/C++

@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-05 21:05 +0300
 categories: [programming, slidingwindow]
-tags: [c/c++, contests, leetcode, heap, set, multiset, sliding window]
+tags: [c/c++, contests, leetcode, heap, set, multiset, slidingwindow]
 difficulty: hard
 source: https://leetcode.com/problems/sliding-window-median
 proglang: C/C++

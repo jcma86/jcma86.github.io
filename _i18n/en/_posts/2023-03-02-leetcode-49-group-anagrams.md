@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-02 22:15 +0300
 categories: [programming, hashtable]
-tags: [c/c++, contests, leetcode, hash table]
+tags: [c/c++, contests, leetcode, hashtable]
 difficulty: medium
 source: https://leetcode.com/problems/group-anagrams
 proglang: C/C++

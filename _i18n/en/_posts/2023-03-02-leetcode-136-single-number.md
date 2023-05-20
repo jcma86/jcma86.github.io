@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-02 00:20 +0300
 categories: [programming, hashtable]
-tags: [c/c++, contests, leetcode, hash table, xor]
+tags: [c/c++, contests, leetcode, hashtable, xor]
 difficulty: easy
 source: https://leetcode.com/problems/single-number
 proglang: C/C++

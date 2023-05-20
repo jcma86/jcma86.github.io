@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-05 17:25 +0300
 categories: [programming, twopointers]
-tags: [c/c++, contests, leetcode, two pointers]
+tags: [c/c++, contests, leetcode, twopointers]
 difficulty: medium
 source: https://leetcode.com/problems/container-with-most-water
 proglang: C/C++

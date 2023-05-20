@@ -9,7 +9,7 @@ layout: page
 <div id="page-tag">
   <h1 class="ps-lg-2">
     <i class="fa fa-tag fa-fw text-muted"></i>
-    {{ page.title }}
+    {{ site.data.locales[site.lang].post_categories[page.title] }}
     <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
   <ul class="post-content pl-0">

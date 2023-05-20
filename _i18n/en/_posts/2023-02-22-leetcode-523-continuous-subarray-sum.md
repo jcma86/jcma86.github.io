@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-22 11:00 +0300
 categories: [programming, ps]
-tags: [algorithms, c/c++, contests, prefix sum, leetcode]
+tags: [algorithms, c/c++, contests, ps, leetcode]
 difficulty: medium
 source: https://leetcode.com/problems/continuous-subarray-sum/
 proglang: C/C++

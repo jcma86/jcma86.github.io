@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-24 12:00 +0300
 categories: [programming, ps]
-tags: [algorithms, c/c++, contests, leetcode, prefix sum, deque]
+tags: [algorithms, c/c++, contests, leetcode, ps, deque]
 difficulty: hard
 source: https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 proglang: C/C++

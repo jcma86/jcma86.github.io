@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-05 18:25 +0300
 categories: [programming, twopointers]
-tags: [c/c++, contests, leetcode, hash table, two pointers]
+tags: [c/c++, contests, leetcode, hashtable, twopointers]
 difficulty: medium
 source: https://leetcode.com/problems/partition-labels
 proglang: C/C++

@@ -9,10 +9,15 @@ en:
     written_by: 'By'
     updated: 'Updated'
   post_categories:
+    algorithms:     "Algorithms"
+    c/c++:          "C/C++"
+    contests:       "Contests"
+    leetcode:       "LeetCode"
     bs:             "Binary Search"
     btree:          "Binary Tree"
     bt:             "Backtracking"
     bw:             "Bitwise Operation"
+    deque:          "Double-ended queue"
     dfsbfs:         "DFS/BFS"
     dynamicp:       "Dynamic Programming"
     fsm:            "Finite-State Machine"
@@ -20,6 +25,7 @@ en:
     hashtable:      "Hash Table"
     heap:           "Heap"
     linkedlist:     "Linked List"
+    multiset:       "Multiset"
     others:         "Others"
     programming:    "Programming"
     ps:             "Prefix Sum"
@@ -31,6 +37,7 @@ en:
     tortoisehare:   "Tortoise and Hare"
     tree:           "Tree"
     twopointers:    "Two Pointers"
+    xor:            "XOR"
 
     articles:       "Articles"
     array:          "Arrays"
@@ -43,10 +50,15 @@ es:
     written_by: 'Por'
     updated: 'Actualizado'
   post_categories:
+    algorithms:     "Algoritmos"
+    c/c++:          "C/C++"
+    contests:       "Competencias"
+    leetcode:       "LeetCode"
     bs:             "Búsqueda Binaria"
     bt:             "Vuelta atrás (Backtracking)"
     btree:          "Árbol Binario"
     bw:             "Operación a Nivel de Bits"
+    deque:          "Cola Doblemente Terminada"
     dfsbfs:         "BP/BA"
     dynamicp:       "Programación Dinámica"
     fsm:            "Máquina de Estados Finitos"
@@ -54,6 +66,7 @@ es:
     hashtable:      "Tabla Hash"
     heap:           "Montículo"
     linkedlist:     "Lista Enlazada"
+    multiset:       "Multiset"
     others:         "Otros"
     programming:    "Programación"
     ps:             "Suma Acumulada"
@@ -65,6 +78,7 @@ es:
     tortoisehare:   "Tortuga y Liebre"
     tree:           "Árbol"
     twopointers:    "Dos Punteros"
+    xor:            "XOR"
 
     articles:       "Articulos"
     array:          "Arreglos"
@@ -90,10 +104,15 @@ ru:
     written_by: 'Автор'
     updated: 'Обновлено'
   post_categories:
+    algorithms:     "Алгоритмы"
+    c/c++:          "C/C++"
+    contests:       "Конкурсы"
+    leetcode:       "LeetCode"
     bs:             "Двоичное Дерево Поиска"
     bt:             "Поиск с Возвратом"
     btree:          "Двоичное Дерево"
     bw:             "Битовая Операция"
+    deque:          "Двухсторонняя Очередь"
     dfsbfs:         "Поиск в Глубину/Поиск в Ширину"
     dynamicp:       "Динамическое Программирование"
     fsm:            "Конечный Автомат"
@@ -101,6 +120,7 @@ ru:
     hashtable:      "Хеш-Таблица"
     heap:           "Куча"
     linkedlist:     "Связный Список"
+    multiset:       "Мультимножество"
     others:         "Другие"
     programming:    "Программирование"
     ps:             "Префиксная Сумма"
@@ -112,6 +132,7 @@ ru:
     tortoisehare:   "Черепахи и Зайца"
     tree:           "Дерево"
     twopointers:    "Два Указателя"
+    xor:            "XOR"
 
     articles:       "Статьи"
     array:          "Массивы"

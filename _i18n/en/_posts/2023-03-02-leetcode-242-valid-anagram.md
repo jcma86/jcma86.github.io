@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-02 23:00 +0300
 categories: [programming, hashtable]
-tags: [c/c++, contests, leetcode, hash table]
+tags: [c/c++, contests, leetcode, hashtable]
 difficulty: easy
 source: https://leetcode.com/problems/valid-anagram
 proglang: C/C++

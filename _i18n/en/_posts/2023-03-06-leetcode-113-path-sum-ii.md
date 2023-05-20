@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-06 20:00 +0300
 categories: [programming, tree]
-tags: [c/c++, contests, leetcode, tree, dfs]
+tags: [c/c++, contests, leetcode, tree, dfsbfs]
 difficulty: medium
 source: https://leetcode.com/problems/path-sum-ii
 proglang: C/C++

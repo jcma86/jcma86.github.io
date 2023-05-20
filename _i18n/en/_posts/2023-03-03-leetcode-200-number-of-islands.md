@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-03 01:30 +0300
 categories: [programming, dfsbfs]
-tags: [c/c++, contests, leetcode, dfs]
+tags: [c/c++, contests, leetcode, dfsbfs]
 difficulty: medium
 source: https://leetcode.com/problems/number-of-islands
 proglang: C/C++

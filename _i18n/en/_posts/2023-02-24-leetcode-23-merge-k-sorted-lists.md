@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-24 18:00 +0300
 categories: [programming, linkedlist]
-tags: [c/c++, contests, leetcode, linked list]
+tags: [c/c++, contests, leetcode, linkedlist]
 difficulty: hard
 source: https://leetcode.com/problems/merge-k-sorted-lists
 proglang: C/C++

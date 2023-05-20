@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-28 21:45 +0300
 categories: [programming, linkedlist]
-tags: [c/c++, contests, leetcode, linked list]
+tags: [c/c++, contests, leetcode, linkedlist]
 difficulty: medium
 source: https://leetcode.com/problems/add-two-numbers
 proglang: C/C++

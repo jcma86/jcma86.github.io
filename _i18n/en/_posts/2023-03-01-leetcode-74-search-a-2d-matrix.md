@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-01 10:00 +0300
 categories: [programming, bs]
-tags: [c/c++, contests, leetcode, binary search]
+tags: [c/c++, contests, leetcode, bs]
 difficulty: medium
 source: https://leetcode.com/problems/search-a-2d-matrix
 proglang: C/C++

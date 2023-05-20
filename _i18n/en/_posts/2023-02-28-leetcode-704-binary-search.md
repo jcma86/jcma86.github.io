@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-28 22:45 +0300
 categories: [programming, bs]
-tags: [c/c++, contests, leetcode, binary search]
+tags: [c/c++, contests, leetcode, bs]
 difficulty: easy
 source: https://leetcode.com/problems/binary-search
 proglang: C/C++

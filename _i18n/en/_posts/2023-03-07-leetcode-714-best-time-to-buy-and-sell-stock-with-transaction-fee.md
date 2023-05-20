@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-07 03:05 +0300
 categories: [programming, greedy, dynamicp]
-tags: [c/c++, contests, leetcode, greedy, dynamic programming]
+tags: [c/c++, contests, leetcode, greedy, dynamicp]
 difficulty: medium
 source: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
 proglang: C/C++

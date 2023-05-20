@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-28 23:50 +0300
 categories: [programming, bs]
-tags: [c/c++, contests, leetcode, binary search]
+tags: [c/c++, contests, leetcode, bs]
 difficulty: easy
 source: https://leetcode.com/problems/guess-number-higher-or-lower
 proglang: C/C++

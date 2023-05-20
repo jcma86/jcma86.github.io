@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-03 18:25 +0300
 categories: [programming, sort]
-tags: [c/c++, contests, leetcode, sort, overlap]
+tags: [c/c++, contests, leetcode, sort]
 difficulty: medium
 source: https://leetcode.com/problems/merge-intervals
 proglang: C/C++

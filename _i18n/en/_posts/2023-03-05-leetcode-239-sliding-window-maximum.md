@@ -6,8 +6,8 @@ author: jose
 layout: post
 language: en
 date: 2023-03-05 22:38 +0300
-categories: [programming, slidingwindow]
-tags: [c/c++, contests, leetcode, sliding window]
+categories: [programming, ps]
+tags: [c/c++, contests, leetcode, ps]
 difficulty: hard
 source: https://leetcode.com/problems/sliding-window-maximum
 proglang: C/C++

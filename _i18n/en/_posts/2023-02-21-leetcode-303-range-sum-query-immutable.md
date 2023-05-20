@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-21 13:00:00 +0300
 categories: [programming, ps]
-tags: [algorithms, c/c++, contests, leetcode, prefix sum]
+tags: [algorithms, c/c++, contests, leetcode, ps]
 difficulty: easy
 source: https://leetcode.com/problems/range-sum-query-immutable/
 proglang: C/C++

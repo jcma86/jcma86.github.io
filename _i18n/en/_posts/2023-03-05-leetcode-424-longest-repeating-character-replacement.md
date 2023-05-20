@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-05 23:33 +0300
 categories: [programming, slidingwindow]
-tags: [c/c++, contests, leetcode, heap, set, multiset, sliding window]
+tags: [c/c++, contests, leetcode, heap, set, multiset, slidingwindow]
 difficulty: medium
 source: https://leetcode.com/problems/longest-repeating-character-replacement
 proglang: C/C++

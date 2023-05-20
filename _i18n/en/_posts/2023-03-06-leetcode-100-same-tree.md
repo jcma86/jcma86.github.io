@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-06 01:40 +0300
 categories: [programming, tree]
-tags: [c/c++, contests, leetcode, hash table, tree, bfs]
+tags: [c/c++, contests, leetcode, hashtable, tree, dfsbfs]
 difficulty: easy
 source: https://leetcode.com/problems/same-tree
 proglang: C/C++

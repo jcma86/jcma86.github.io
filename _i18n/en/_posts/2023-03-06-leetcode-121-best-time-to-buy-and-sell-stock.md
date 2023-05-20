@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-06 20:30 +0300
 categories: [programming, greedy, dynamicp]
-tags: [c/c++, contests, leetcode, greedy, dynamic programming]
+tags: [c/c++, contests, leetcode, greedy, dynamicp]
 difficulty: easy
 source: https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 proglang: C/C++

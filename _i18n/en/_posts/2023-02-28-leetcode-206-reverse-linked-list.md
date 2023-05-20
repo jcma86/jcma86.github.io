@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-28 22:45 +0300
 categories: [programming, linkedlist]
-tags: [c/c++, contests, leetcode, linked list]
+tags: [c/c++, contests, leetcode, linkedlist]
 difficulty: easy
 source: https://leetcode.com/problems/reverse-linked-list
 proglang: C/C++

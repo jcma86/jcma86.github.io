@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-02-24 09:00 +0300
 categories: [programming, ps]
-tags: [algorithms, c/c++, contests, leetcode, prefix sum]
+tags: [algorithms, c/c++, contests, leetcode, ps]
 difficulty: hard
 source: https://leetcode.com/problems/smallest-rotation-with-highest-score/
 proglang: C/C++

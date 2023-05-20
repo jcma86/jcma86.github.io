@@ -7,7 +7,7 @@ layout: post
 language: en
 date: 2023-03-06 17:20 +0300
 categories: [programming, tree]
-tags: [c/c++, contests, leetcode, tree, dfs]
+tags: [c/c++, contests, leetcode, tree, dfsbfs]
 difficulty: easy
 source: https://leetcode.com/problems/balanced-binary-tree
 proglang: C/C++
