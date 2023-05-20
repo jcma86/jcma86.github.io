@@ -51,7 +51,7 @@ We need to sort the initial vector, so that every range will have a <code>start<
 class Solution {
 public:
   vector<vector<int>> merge(vector<vector<int>>& intervals) {
-    if (intervals.size() == 0) return {{}};
+    if (intervals.size() == 0) return { {} };
     vector<vector<int>> result;
 
     sort(intervals.begin(), intervals.end());
