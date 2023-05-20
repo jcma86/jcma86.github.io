@@ -8,6 +8,7 @@ date: 2023-05-15 10:00 +0300
 proglang: C++
 math: true
 mermaid: true
+toc: true
 pin: true
 image:
   path: https://d35fo82fjcw0y8.cloudfront.net/2019/04/08023413/Neural_Network_Brain_Mimic.jpeg
@@ -23,6 +24,7 @@ The curriculum is structured in a way that is easy to follow, with clear explana
 Whether you are interested in pursuing a career in deep learning or simply want to expand your knowledge and skills in this field, the Neural Network and Backpropagation Introduction Course by GPT is an excellent resource.
 
 ## Study Program
+---
      1. Introduction to neural networks and backpropagation
         * What is a neural network?
         * How does it learn?
@@ -73,7 +75,7 @@ Whether you are interested in pursuing a career in deep learning or simply want 
 
 
 ## Chapter 1: Introduction to neural networks and backpropagation
-
+---
 In this section, we'll introduce the basic concepts of neural networks and backpropagation, and implement a feedforward neural network for the XOR problem. Specifically, we'll cover:
 
 - What is a neural network?
@@ -88,7 +90,7 @@ After finishing this section, you should have a solid understanding of the basic
 
 
 ### What is a neural network?
-
+---
 A neural network is a machine learning model that is inspired by the structure and function of the human brain. It consists of multiple layers of interconnected nodes (neurons) that perform simple computations on their inputs and pass the results to the next layer. The output of the last layer is the predicted output of the network.
 
 Neural networks can be used for a variety of tasks, including classification, regression, and image and speech recognition. They have been shown to be particularly effective at handling complex, non-linear relationships between inputs and outputs.
@@ -110,7 +112,7 @@ Choosing appropriate values for these hyperparameters can be a challenging task,
 In the next section, we'll dive deeper into how neural networks learn and how they can be trained to perform specific tasks using backpropagation and optimization algorithms.
 
 ### How does it learn?
-
+---
 A neural network learns by adjusting its weights and biases through a process called training. During training, the network is presented with a set of input-output pairs, and it adjusts its weights and biases to minimize the difference (error) between its predicted outputs and the true outputs. This process is typically done using an optimization algorithm like gradient descent.
 
 ***What are weights and biases?*** Weights and biases are the parameters of a neural network that are learned during training. A weight is a scalar value that determines the strength of the connection between two neurons, while a bias is a scalar value that is added to the output of a neuron.
@@ -126,7 +128,7 @@ Over time, as the network is exposed to more and more examples of input-output p
 In the next section, we'll dive deeper into backpropagation and how it allows the network to compute the gradients of the error with respect to the weights and biases.
 
 ### What is backpropagation?
-
+---
 Backpropagation is an algorithm for computing the gradients of the error with respect to the weights and biases of a neural network. It works by propagating the error backwards through the network, using the chain rule to compute the derivative of the error with respect to each weight and bias.
 
 During training, the network is presented with a set of input-output pairs, and it computes its predicted output for each input using the current values of the weights and biases. The difference between the predicted output and the true output is then used to compute the error. Backpropagation is used to compute the gradients of the error with respect to the weights and biases, which indicate how much each weight and bias contributed to the error.
@@ -144,7 +146,7 @@ There are alternative methods to backpropagation for training neural networks. S
 While backpropagation is the most widely used method for training neural networks, these alternative methods can be useful in certain situations or for certain types of networks.
 
 ### How does it work?
-
+---
 In a feedforward neural network, the input is passed through a series of layers, with each layer performing a linear transformation followed by a non-linear activation function. The output of each layer is passed to the next layer as input. The final layer produces the predicted output of the network.
 
 ![](https://i.stack.imgur.com/S52yR.png)
@@ -162,7 +164,7 @@ However, it is important to note that training a neural network can be a difficu
 Despite these challenges, neural networks have achieved remarkable success in recent years and are being used to solve a wide range of problems across many fields. As the field of deep learning continues to advance, it is likely that neural networks will become even more powerful and ubiquitous, and will play an increasingly important role in shaping our world.
 
 ### Why is it important?
-
+---
 Neural networks are important because they allow us to solve complex, non-linear problems that would be difficult or impossible to solve using traditional programming methods. They can learn to recognize patterns and make predictions based on large amounts of data, and can be used for a variety of tasks, including image and speech recognition, natural language processing, and control systems.
 
 Backpropagation is important because it allows us to train neural networks to perform specific tasks. Without backpropagation, we would have no way to adjust the weights and biases of the network to minimize the error between its predicted outputs and the true outputs.
@@ -172,7 +174,7 @@ The availability of large amounts of data and computational resources, combined 
 Overall, neural networks and backpropagation are important because they allow us to solve complex, real-world problems that were previously beyond our reach, and have the potential to improve many aspects of our lives.
 
 ### Example: XOR problem
-
+---
 The XOR problem is a classic problem in machine learning that involves predicting the output of a logical operation on two binary inputs. Specifically, the output is 1 if the inputs are different, and 0 if the inputs are the same.
 
 This problem cannot be solved by a linear model, as there is no line that can separate the two classes of inputs: 
@@ -190,7 +192,7 @@ During training, the weights and biases of the network will be adjusted using ba
 Implementing a neural network for the XOR problem is a great way to practice the concepts of neural networks and backpropagation, and to see firsthand how these techniques can be used to solve a non-linear problem.
 
 ### Exercise: Implement a feedforward neural network for the XOR problem (C++)
-
+---
 ```cpp
 #include <iostream>
 #include <vector>

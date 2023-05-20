@@ -8,6 +8,7 @@ date: 2023-05-01 10:00 +0300
 proglang: Python
 math: true
 mermaid: true
+toc: true
 pin: true
 image:
   path: https://flowxo.com/wp-content/uploads/2021/03/The-Botfather-512x512.png
