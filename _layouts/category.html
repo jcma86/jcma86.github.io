@@ -3,19 +3,14 @@ layout: page
 # The Category layout
 ---
 
-{% if site.lang == "en" %}
-{% capture link1 %}{{ site.url }}{% endcapture %}
-{% else %}
-{% capture link1 %}{{ site.baseurl_root }}/{{site.lang}}{% endcapture %}
-{% endif %}
-
+{% include lang.html %}
 {% assign platforms = page.posts | group_by: "platform" | sort: "name" %}
 
 <div id="page-category">
-  <h1 class="pl-lg-2">
+  <h1 class="ps-lg-2">
     <i class="far fa-folder-open fa-fw text-muted"></i>
-    {{ site.data.locales[site.lang].post_categories[page.title] }}
-    <span class="lead text-muted pl-2">{{ page.posts | size }}</span>
+    {{ page.title }}
+    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
 
   {% assign easy = page.posts | where: "difficulty", "easy" %}
@@ -44,10 +39,10 @@ layout: page
 
   {% for platform in platforms %}
   {% assign postsByPlatform = platform.items | sort: "number" %}
-  <ul class="post-content pl-0">
+  <ul class="post-content ps-0">
     <h3>{% if platform.name != "" %}{{platform.name}}{% else %}General{% endif %}</h3>
     {% for post in postsByPlatform %}
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
+    <li class="d-flex justify-content-between px-md-3">
       {% if post.difficulty %}
       {% if post.difficulty == 'medium' %}
       {% assign dif="post-difficulty difficulty-medium"%}
@@ -62,7 +57,7 @@ layout: page
         </div>
       </div>
       {% endif %}
-      <a href="{{link1}}{{ post.url | relative_url }}">{% if post.number %} #{{post.number}}{% endif %}{% if
+      <a href="{{ post.url | relative_url }}">{% if post.number %} #{{post.number}}{% endif %}{% if
         post.number or post.platform %}: {% endif %}{{ post.title }}</a>
       <span class="dash flex-grow-1"></span>
       {% include datetime.html date=post.date wrap='span' class='text-muted small' %}

@@ -6,8 +6,8 @@ author: jose
 layout: post
 language: en
 date: 2023-04-10 21:00 +0300
-categories: [programming, dp]
-tags: [c/c++, leetcode, dp]
+categories: [programming, dynamicp]
+tags: [c/c++, leetcode, dynamicp]
 difficulty: medium
 source: https://leetcode.com/problems/decode-ways/
 proglang: C/C++

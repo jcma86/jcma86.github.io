@@ -4,17 +4,18 @@ layout: page
 ---
 {% assign platforms = page.posts | group_by: "platform" | sort: "name" %}
 
+{% include lang.html %}
+
 <div id="page-tag">
-  <h1 class="pl-lg-2">
+  <h1 class="ps-lg-2">
     <i class="fa fa-tag fa-fw text-muted"></i>
     {{ page.title }}
-    <span class="lead text-muted pl-2">{{ page.posts | size }}</span>
+    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
   <ul class="post-content pl-0">
-
     {% for platform in platforms %}
     {% assign postsByPlatform = platform.items | sort: "number" %}
-    <ul class="post-content pl-0">
+    <ul class="post-content ps-0">
       <h3>{% if platform.name != "" %}{{platform.name}}{% else %}General{% endif %}</h3>
       {% for post in postsByPlatform %}
       <li class="d-flex justify-content-between pl-md-3 pr-md-3">
@@ -35,7 +36,7 @@ layout: page
         <a href="{{ post.url | relative_url }}">{% if post.number %} #{{post.number}}{% endif %}{% if
           post.number or post.platform %}: {% endif %}{{ post.title }}</a>
         <span class="dash flex-grow-1"></span>
-        {% include datetime.html date=post.date wrap='span' class='text-muted small' %}
+        {% include datetime.html date=post.date wrap='span' class='text-muted small' lang=lang %}
       </li>
       {% endfor %}
     </ul>

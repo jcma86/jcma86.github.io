@@ -6,8 +6,8 @@ author: jose
 layout: post
 language: en
 date: 2023-03-28 23:50 +0300
-categories: [programming, other]
-tags: [c/c++, leetcode, other]
+categories: [programming, others]
+tags: [c/c++, leetcode, others]
 difficulty: easy
 source: https://leetcode.com/problems/length-of-last-word/
 proglang: C/C++
