@@ -3,19 +3,14 @@ layout: page
 # The Category layout
 ---
 
-{% if site.lang == "en" %}
-{% capture link1 %}{{ site.url }}{% endcapture %}
-{% else %}
-{% capture link1 %}{{ site.baseurl_root }}/{{site.lang}}{% endcapture %}
-{% endif %}
-
 {% assign projects = site.projects | reverse %}
 
 <div id="post-list">
   {% for project in projects %}
   {% if forloop.first %}
-  <div class="card post-preview">
-    <a href="{{link1}}{{project.url | relative_url }}">
+  <!-- {{ project.url | relative_url }} -->
+  <a href="{{ project.url | relative_url }}" class="card-wrapper">
+    <div class="card post-preview">
       <div style="display: flex; flex-direction: row;">
         <div style="height: 95%; width: 450px; justify-content: center;">
           <img src="{{project.image.path}}" style="height: 100%; width: 100%; object-fit: contain"
@@ -39,8 +34,8 @@ layout: page
           </div>
         </div>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
   {% else %}
   <h1>{{project.title}}</h1>
   {% endif %}
