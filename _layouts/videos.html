@@ -1,0 +1,35 @@
+---
+layout: page
+# The Category layout
+---
+
+{% assign videos = site.videos | reverse %}
+
+<div class="home py-4 py-md-5">
+  <div class="row">
+    {% for post in videos %}
+    <div class="col-12 col-md-10 col-lg-6">
+      <a href="{{ post.url | relative_url }}" class="card-wrapper">
+        <div class="projectcard card post-preview rounded overflow-hidden">
+          <div class="image">
+            {% if post.image %}
+            <div style="display: flex; width: 100%; margin-bottom: 0; justify-content: center">
+              <img src="{{post.image.path}}" alt="{{post.title}}">
+            </div>
+            {% endif %}
+            <div class="card-body">
+              <h2 class="card-title my-2 mt-md-0">{{ post.title | truncate: 45 }}</h2>
+              <p><span><small>{{ post.date | date: "%b %-d, %Y"}}</small></span></p>
+              <div class="card-text post-content mt-0 mb-2">
+                <p style="color: rgba(142, 142, 142, 1.0);">
+                  {{ post.content | markdownify | strip_html | strip_newlines | truncate: 250 | escape }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

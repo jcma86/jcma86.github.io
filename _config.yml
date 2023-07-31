@@ -36,6 +36,9 @@ github:
 twitter:
   username: jcmaguilar # change to your twitter username
 
+youtube:
+  username: monkeyscode # change to your twitter username
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -138,6 +141,9 @@ collections:
     output: true
     sort_by: order
   projects:
+    output: true
+    sort_by: order
+  videos:
     output: true
     sort_by: order
 
